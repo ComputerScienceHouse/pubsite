@@ -8,8 +8,8 @@ This site is written using [Jekyll](https://jekyllrb.com/), a static site genera
 
 ## Local Development
 
-Build the container:  `docker build -t putsite .`  
-Run the container: `docker run -p 4000:80 putsite`  
+Build the container:  `docker build -t pubsite .`  
+Run the container: `docker run -p 4000:80 pubsite`  
 You will be able to access the site at http://localhost:4000.
 
 You can either edit files in the container, or rebuild the container when you want to test changes.
