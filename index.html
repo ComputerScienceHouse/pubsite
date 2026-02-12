@@ -3,6 +3,13 @@ layout: default
 active: home
 ---
 
+<!-- Banner for 50th anniversary information -->
+<div id="info-banner">
+    <p>ATTENTION ALUMNI & MEMBERS: The 50th Anniversary will be held from April 10th-12th, 2026!</p>
+    <p>Find out more at <a href="50th.csh.rit.edu">50th.csh.rit.edu</a></p>
+    <button id="close-banner">✖</button>
+  </div>
+
 <div style="top:0;position:absolute;display: inline;">
 <!-- Floating scroll-down button -->
     <button id="carousel-scroll-down-button"  aria-label="Scroll to the end/bottom of the image carousel">
@@ -240,3 +247,11 @@ active: home
         </div>
     </div>
 </div>
+
+<!-- Javascript for 50th Info Banner -->
+<script>
+    // Close banner functionality
+    document.getElementById('close-banner').addEventListener('click', function() {
+        document.getElementById('info-banner').style.display = 'none';
+    });
+</script>
