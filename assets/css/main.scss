@@ -156,7 +156,7 @@ a.btn {
 
 // CSS For 50th Info Banner
 #info-banner {
-  background-color: rgba(255, 0, 255, 0.5); /* Red background with 50% opacity */
+  background-color: rgba(255, 0, 255, 0.8); /* Red background with 50% opacity */
   color: #fff; /* White text for contrast */
   text-align: center;
   padding: 10px 20px;
@@ -165,6 +165,10 @@ a.btn {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  margin-top: 50px; /* Adjust this value to match the height of the banner */
 }
 
 #info-banner p {
@@ -182,12 +186,12 @@ a.btn {
 }
 
 #info-banner a {
-  color: lime; /* Set the link color to blue */
+  color: white; /* Set the link color to blue */
   text-decoration: underline; /* Optional: Add underline for better visibility */
 }
 
 #info-banner a:visited {
-  color: lime; /* Ensure visited links also remain blue */
+  color: white; /* Ensure visited links also remain blue */
 }
 
 
